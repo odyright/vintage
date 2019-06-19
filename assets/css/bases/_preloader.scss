@@ -1,0 +1,109 @@
+// PRELOADER
+
+.page-preloader {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+
+    svg {
+        shape-rendering: optimizeSpeed;
+    }
+
+    &.page-preloader_animated-out .page-preloader__animation {
+        transform: translate3d(-50%, -50%, 0) scaleX(0) skewY(35deg);
+    }
+
+    &.hidden {
+        display: none;
+    }
+}
+
+.page-preloader__text {
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: roboto_condensedbold, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.page-preloader__animation {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    transform: translate3d(-50%, -50%, 0) scaleX(1) skewY(0deg);
+}
+
+.page-preloader__progress-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 1px;
+
+    .rect {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        transform: scaleX(1);
+    }
+}
+
+.page-preloader__progress-bar_top {
+    transform-origin: 100% 0;
+    transform: translate(-50%, -60px) scaleX(0);
+
+    .rect {
+        transform-origin: 0 0;
+    }
+}
+
+.page-preloader__progress-bar_bottom {
+    transform-origin: 0 0;
+    transform: translate(-50%, 60px) scaleX(0);
+
+    .rect {
+        transform-origin: 100% 0;
+    }
+}
+
+.page-preloader__drop-line {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    width: 1px;
+    transition: top 0.85s ease-out;
+
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 0;
+        background-color: #fff;
+        transition: top 0.85s ease-out, height 0.85s ease-out;
+    }
+
+    &.page-preloader__drop-line_animated {
+        top: 100%;
+
+        &:before {
+            height: 200px;
+            top: -50px;
+        }
+    }
+}

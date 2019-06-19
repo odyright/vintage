@@ -1,0 +1,20 @@
+@include font-face(iconfont, "/fonts/iconfont");
+
+.icon:before {
+  font-family: $Iconf;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-v:before {
+  content: "";
+}
+
+.icon-vintage:before {
+  content: "";
+}

@@ -1,0 +1,56 @@
+b,body,dd,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,i,img,label,li,ol,p,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,u,ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: #666
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+td,td img {
+  vertical-align: top
+}
+
+button,input,select,textarea {
+  margin: 0;
+  font-size: 100%;
+  color: #666
+}
+
+input[type=checkbox] {
+  vertical-align: bottom
+}
+
+input[type=radio] {
+  vertical-align: text-bottom
+}
+
+sub {
+  vertical-align: sub
+}
+
+sub,sup {
+  font-size: smaller
+}
+
+sup {
+  vertical-align: super
+}

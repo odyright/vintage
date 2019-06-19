@@ -1,0 +1,34 @@
+//fonts
+$Iconf:  'iconfont', sans-serif;
+$Light:  'robotolight', sans-serif;
+$Reg:    'robotoregular', sans-serif;
+$Bold:   'roboto_condensedbold', sans-serif;
+$Ush:    'uni_sansheavy', sans-serif;
+$Usb:    'uni_sansbold', sans-serif;
+$Ushc:   'uni_sansheavy_caps', sans-serif;
+
+//colors from hovermap
+$white:       #ffffff;
+$white-noise: #f0f0f0;
+$black:       #000000;
+$light-black: #0a0c0a;
+$light-grey:  #f0f0f0;
+$grey:        #5a5a5a;
+$dark-grey:   #858585;
+
+//colors for project
+
+// media
+$desktop: 1260px;
+$minDesktop: $desktop - 1px;
+$tablet: 768px;
+$minTablet: $tablet - 1px;
+$phablet: 640px;
+$minphablet: $phablet - 1px;
+$mobile: 480px;
+$minmobile: $mobile - 1px;
+
+// $desktop: 1260px;
+// $minDesktop: $desktop - 1px;
+// $tablet: 768px;
+// $minTablet: $tablet - 1px;

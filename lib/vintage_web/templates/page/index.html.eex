@@ -1,0 +1,289 @@
+<div class="screen-panel screen-panel_features"
+    style="display: block; transform: matrix(1, 0, 0, 1, 0, 0); z-index: 1;">
+
+    <div class="fixed-hud rolling-block vintage-logo invertable" data-selector=".rolling-block__content"
+        data-prop="color" data-original-color="0xFFFFFF" data-inverted-color="0x121212" style="left: 60px;">
+
+
+        <a href="/">
+            <div class="rolling-block__content"
+                style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                <div class="icon icon-vintage"></div>
+                <div class="icon icon-v"></div>
+            </div>
+        </a>
+
+    </div>
+    <div class="fixed-hud mobile-splash invertable" data-prop="background-color" data-original-color="0x121212"
+        data-inverted-color="0xFFFFFF" data-alpha="0.9" style="background-color: rgba(18, 18, 18, 0.9);"></div>
+    <div class="fixed-hud menu-block" style="left: 0px; right: 0px;">
+        <div class="menu-btn-label rolling-block invertable hidden" data-selector=".rolling-block__content"
+            data-prop="color" data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <a href="/portfolio/vr" class="mobile-only rolling-block__content roll-hover-btn"
+                style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                <div class="roll-hover-btn__label">
+                    <p>VR</p>
+                </div>
+                <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                    <p>VR</p>
+                </div>
+            </a>
+            <a href="https://vintage.agency/blog" target="_blank" class="blog rolling-block__content roll-hover-btn"
+                style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                <div class="roll-hover-btn__label">
+                    <p>Blog</p>
+                </div>
+                <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                    <p>Blog</p>
+                </div>
+            </a>
+            <a href="#" class="label rolling-block__content roll-hover-btn"
+                style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                <div class="roll-hover-btn__label">
+                    <p>Menu</p>
+                </div>
+                <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                    <p>Menu</p>
+                </div>
+            </a>
+        </div>
+        <div class="menu-btn invertable" data-selector=".menu-btn__line .menu-btn__line__inner"
+            data-prop="background-color" data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <div class="menu-btn__line" style="transform: scaleX(1);">
+                <div class="menu-btn__line__inner" style="background-color: rgb(255, 255, 255);"></div>
+                <div class="menu-btn__line__inner" style="background-color: rgb(255, 255, 255);"></div>
+            </div>
+            <div class="menu-btn__line" style="transform: scaleX(1);">
+                <div class="menu-btn__line__inner" style="background-color: rgb(255, 255, 255);"></div>
+                <div class="menu-btn__line__inner" style="background-color: rgb(255, 255, 255);"></div>
+            </div>
+            <div class="menu-btn__line" style="transform: scaleX(0.7);">
+                <div class="menu-btn__line__inner" style="background-color: rgb(255, 255, 255);"></div>
+                <div class="menu-btn__line__inner" style="background-color: rgb(255, 255, 255);"></div>
+            </div>
+        </div>
+        <div class="langs">
+            <div class="langs__i rolling-block invertable" data-selector=".rolling-block__content" data-prop="color"
+                data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+                <a class="rolling-block__content roll-hover-btn" href="https://vintage.com.ua/"
+                    style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                    <div class="roll-hover-btn__label">
+                        <p>ru</p>
+                    </div>
+                    <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                        <p>ru</p>
+                    </div>
+                </a> </div>
+
+            <div class="langs__i rolling-block invertable" data-selector=".rolling-block__content" data-prop="color"
+                data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+                <span class="rolling-block__content roll-hover-btn"
+                    style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                    <div class="roll-hover-btn__label">
+                        <p>en</p>
+                    </div>
+                    <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                        <p>en</p>
+                    </div>
+                </span> </div>
+
+        </div>
+    </div>
+    <div class="fixed-hud vintage-web-prod" style="left: 60px;">
+        <div class="rolling-block invertable" data-selector=".rolling-block__content" data-prop="color"
+            data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <p class="rolling-block__content" style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                Vintage</p>
+        </div>
+        <div class="rolling-block invertable" data-selector=".rolling-block__content" data-prop="color"
+            data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <p class="rolling-block__content" style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                Web</p>
+        </div>
+        <div class="rolling-block invertable" data-selector=".rolling-block__content" data-prop="color"
+            data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <p class="rolling-block__content" style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                Production</p>
+        </div>
+    </div>
+    <div class="vintage-is-all  fixed-hud hidden" style="left: 60px;">
+
+        <div class="rolling-block">
+            <svg class="svg svg-all_you rolling-block__content">
+                <use xlink:href="<%= Routes.static_path(@conn, "/images/sprite.svg#all_you") %>"></use>
+            </svg>
+        </div>
+        <div class="rolling-block">
+            <svg class="svg svg-need_is rolling-block__content">
+                <use xlink:href="<%= Routes.static_path(@conn, "/images/sprite.svg#need_is") %>"></use>
+            </svg>
+        </div>
+        <div class="rolling-block">
+            <svg class="svg svg-v rolling-block__content">
+                <use xlink:href="<%= Routes.static_path(@conn, "/images/sprite.svg#v") %>"></use>
+            </svg>
+        </div>
+    </div>
+    <div class="fixed-hud socials-portfolio clearfix" style="right: 60px;">
+        <div class="portfolio rolling-block invertable" data-selector=".rolling-block__content" data-prop="color"
+            data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <a href="/portfolio" class="rolling-block__content portfolio-btn roll-hover-btn"
+                style="transform: translate3d(0px, 0%, 0px); color: rgb(255, 255, 255);">
+                <div class="roll-hover-btn__label">
+                    <p>Portfolio</p>
+                </div>
+                <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                    <p>Portfolio</p>
+                </div>
+            </a>
+        </div>
+        <div class="behance rolling-block invertable hidden" data-selector=".rolling-block__content" data-prop="color"
+            data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <a href="https://www.behance.net/www_vintage" target="_blank"
+                class="rolling-block__content portfolio-btn roll-hover-btn" style="color: rgb(255, 255, 255);">
+                <div class="roll-hover-btn__label">
+                    <p>Behance</p>
+                </div>
+                <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                    <p>Behance</p>
+                </div>
+            </a>
+        </div>
+        <div class="facebook rolling-block invertable hidden" data-selector=".rolling-block__content" data-prop="color"
+            data-original-color="0xFFFFFF" data-inverted-color="0x121212">
+            <a href="https://fb.me/DigitalVintageAgency" target="_blank"
+                class="rolling-block__content portfolio-btn roll-hover-btn" style="color: rgb(255, 255, 255);">
+                <div class="roll-hover-btn__label">
+                    <p>Facebook</p>
+                </div>
+                <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                    <p>Facebook</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="pop-up pop-up_video " style="opacity: 0; display: none; transform: matrix(0.75, 0, 0, 0.75, 0, 0);">
+        <video data-url="video/14_Showreel_Vintage2017">
+            <source src="video/14_Showreel_Vintage2017.mp4" type="video/mp4">
+            <source src="video/14_Showreel_Vintage2017.webm" type="video/webm"></video>
+        <div class="close-btn">
+            <div class="line line_h"></div>
+            <div class="line line_v"></div>
+        </div>
+        <div class="video-popup__controls">
+            <div class="play-btn"></div>
+            <div class="pause-btn"></div>
+            <div class="progress-bar">
+                <div class="progress-bar__time" style="transform: matrix(0, 0, 0, 1, 0, 0);"></div>
+            </div>
+            <div class="time">0:00</div>
+        </div>
+    </div>
+    <div class="screen-panel__bg screen-panel__bg_features">
+        <div class="features"
+            data-sprite="<%= Routes.static_path(@conn, "/images/content/main_screen/features.png") %>">
+            <img class="features__colors"
+                src="<%= Routes.static_path(@conn, "/images/content/main_screen/sprites/colors_2.png") %>">
+            <img class="features__paper-mask"
+                src="<%= Routes.static_path(@conn, "/images/content/main_screen/sprites/paper-center-mask.png") %>">
+            <div class="features__stage">
+                <div class="features__stage__shadows">
+                    <img class="shadow shadow_left"
+                        src="<%= Routes.static_path(@conn, "/images/content/main_screen/sprites/center-bg-shadow.png") %>">
+                    <img class="shadow shadow_right"
+                        src="<%= Routes.static_path(@conn, "/images/content/main_screen/sprites/center-bg-shadow.png") %>">
+                </div>
+                <div class="features__stage__stroke">
+                    <canvas resize=""></canvas>
+                </div>
+                <canvas width="1440" height="290" style="touch-action: none; cursor: inherit;"></canvas>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <div class="scroll-down__lines"></div>
+        </div>
+    </div>
+    <div class="content-wrap">
+        <div class="v-lines">
+            <div class="v-lines__outer"></div>
+            <div class="v-lines__inner"></div>
+        </div>
+        <div class="features-pagination">
+            <div class="features-pagination__nums">
+                <ul>
+                    <li class="active rolling-block">
+                        <div class="roll-hover-btn rolling-block__content">
+                            <div class="roll-hover-btn__label">
+                                <p class="label">01</p>
+                            </div>
+                            <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                                <p class="label">01</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rolling-block">
+                        <div class="roll-hover-btn rolling-block__content">
+                            <div class="roll-hover-btn__label">
+                                <p class="label">02</p>
+                            </div>
+                            <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                                <p class="label">02</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rolling-block">
+                        <div class="roll-hover-btn rolling-block__content">
+                            <div class="roll-hover-btn__label">
+                                <p class="label">03</p>
+                            </div>
+                            <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                                <p class="label">03</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="features-pagination__line" style="height: 0px;"></div>
+        </div>
+        <div class="features-messages" style="visibility: hidden; opacity: 0;">
+            <ul>
+                <li class="hidden">
+                    <div class="rolling-block">
+                        <p class="rolling-block__content">We create websites, that</p>
+                    </div>
+                    <div class="rolling-block">
+                        <p class="rolling-block__content"> are ahead of time</p>
+                    </div>
+                </li>
+                <li class="hidden">
+                    <div class="rolling-block">
+                        <p class="rolling-block__content">We develop high-loaded</p>
+                    </div>
+                    <div class="rolling-block">
+                        <p class="rolling-block__content">portals and services</p>
+                    </div>
+                </li>
+                <li class="hidden">
+                    <div class="rolling-block">
+                        <p class="rolling-block__content">We increase your online sales
+                        </p>
+                    </div>
+                    <div class="rolling-block">
+                        <p class="rolling-block__content"> </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="features-skip rolling-block">
+            <div class="roll-hover-btn rolling-block__content">
+                <div class="roll-hover-btn__label">
+                    <p class="label">skip</p>
+                </div>
+                <div class="roll-hover-btn__label roll-hover-btn__label_active">
+                    <p class="label">skip</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
